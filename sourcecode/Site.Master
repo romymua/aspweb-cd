@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="YellowMotors.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Yellow Motors</title>
+    <link rel="stylesheet" href="./css/public.css" type="text/css" />
+</head>
+<body>
+    <div id="main" runat="server">
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                </div>
+                
+            </div>
+        </div>
+        <div class="nav">
+            <div class="container">
+                <ul class="header-links">
+                    <li><a href="Home.aspx">HOME</a></li>
+                    <li><a href="Registration.aspx">REGISTRATION</a></li>
+                    <li><a href="Login.aspx">LOGIN</a></li>
+                </ul>    
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+            <div class="container footer-first-child">
+                <ul class="friend-links">
+                    <li>
+                        <a href="https://ais.ac.nz/">AIS HOME PAGE</a>
+                    </li>
+                    <li>
+                        <a href="https://moodle.ais.ac.nz/">AIS MOODLE</a>
+                    </li>
+                    <li>
+                        <a href="https://portal.ais.ac.nz/">AIS PORTAL</a>
+                    </li>
+                </ul>
+            </div>
+            <hr />
+            <div class="container">
+                <div class="copyright">
+                    Copyright &copy; Changchun Li
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
